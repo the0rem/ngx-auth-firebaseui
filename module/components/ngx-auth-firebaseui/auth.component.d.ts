@@ -4,7 +4,7 @@ import { AbstractControl, FormGroup } from '@angular/forms';
 import { MatDialog, MatDialogRef, MatFormFieldAppearance, MatTabChangeEvent, MatTabGroup, ThemePalette } from '@angular/material';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/internal/Subscription';
-import { LegalityDialogComponent } from '../../components/legality-dialog/legality-dialog.component';
+import { LegalityDialogComponent } from '../legality-dialog/legality-dialog.component';
 import { NgxAuthFirebaseUIConfig } from '../../ngx-auth-firebase-u-i.module';
 import { AuthProcessService, AuthProvider, messageOnAuthErrorType } from '../../services/auth-process.service';
 import { Theme } from '../providers/auth.providers.component';

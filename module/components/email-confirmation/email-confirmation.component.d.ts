@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, EventEmitter, OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthProcessService } from './../../services/auth-process.service';
+import { AuthProcessService } from '../../services/auth-process.service';
 interface VerifyEmailContext {
     email: string;
     goBackURL: string;
